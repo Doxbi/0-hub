@@ -79,4 +79,11 @@ ScriptTab:AddButton({
     end
 })
 
+ScriptTab:AddButton({
+    Name = "Aimbot (bind: J)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Doxbi/0-hub/refs/heads/main/aimbot%20(from%200%20hub)"))()
+    end
+})
+
 OrionLib:Init()
