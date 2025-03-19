@@ -7,8 +7,8 @@ ESP_ENABLED  = false
 
 _G.FREE_FOR_ALL = true
 
-_G.ESP_BIND    = 52
-_G.CHANGE_AIM  = 'q'
+_G.ESP_BIND    = +
+_G.CHANGE_AIM  = 'j'
 
 _G.AIM_AT = 'Head'
 
